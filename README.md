@@ -1,16 +1,64 @@
-# React + Vite
+# Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, highly visual portfolio website designed to showcase projects, skills, and background with smooth animations and interactive elements. 
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[Insert Live Link Here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- **Immersive Hero Section:** Unique floating animations with blending modes and creative typography.
+- **Project Carousel:** Interactive drag-to-swipe project showcase with visual cues and hover effects.
+- **Tech Stack Grid:** Animated grid displaying technologies with subtle glowing effects.
+- **Scroll Animations:** Smooth scroll reveals powered by Framer Motion.
+- **Contact Form Integration:** Fully functional contact form using EmailJS.
+- **Responsive Design:** Optimized for mobile, tablet, and desktop experiences.
 
-## React Compiler
+## 🛠️ Built With
+- **React 19** - UI Library
+- **Vite** - Build Tool
+- **Tailwind CSS 4** - Styling
+- **Framer Motion** - Animations
+- **Lucide React & React Icons** - Iconography
+- **EmailJS** - Form handling
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🏃‍♂️ Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+Make sure you have Node.js installed on your machine.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/Srijitadebnath/My-portfolio.git
+```
+
+2. Navigate into the directory
+```bash
+cd portfolio
+```
+
+3. Install dependencies
+```bash
+npm install
+```
+
+4. Start the development server
+```bash
+npm run dev
+```
+
+### EmailJS Setup
+If you want the contact form to work for your own email, you will need to set up [EmailJS](https://www.emailjs.com/):
+1. Create an EmailJS account.
+2. Add an email service and create an email template.
+3. Replace the `SERVICE_ID`, `TEMPLATE_ID`, and `PUBLIC_KEY` variables in `src/components/Contact.jsx` with your own credentials.
+
+## 🎨 Design & Aesthetic
+The project emphasizes a calm, premium aesthetic utilizing "noise" backgrounds, blurred gradients (glassmorphism), bespoke typography combinations, and precise micro-interactions. Special attention was paid to the animation timing to make the website feel responsive and alive without being overwhelming.
+
+## 📄 License
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+*Created by [Srijita Debnath](https://github.com/Srijitadebnath)*
