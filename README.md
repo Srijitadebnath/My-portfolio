@@ -57,8 +57,6 @@ If you want the contact form to work for your own email, you will need to set up
 ## 🎨 Design & Aesthetic
 The project emphasizes a calm, premium aesthetic utilizing "noise" backgrounds, blurred gradients (glassmorphism), bespoke typography combinations, and precise micro-interactions. Special attention was paid to the animation timing to make the website feel responsive and alive without being overwhelming.
 
-## 📄 License
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 *Created by [Srijita Debnath](https://github.com/Srijitadebnath)*
